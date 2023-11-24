@@ -158,10 +158,23 @@ body {
 
 .color-slide1 {
   background-color: #3498db; /* Set your first color */
+  background-size: cover;
+}
+.color-slide1 img{
+    background-size: cover;
+    height: 300px;
+    width: 100%;
 }
 
 .color-slide2 {
   background-color: #e74c3c; /* Set your second color */
+  background-size: cover;
+}
+
+.color-slide2 img{
+    background-size: cover;
+    height: 300px;
+    width: 100%;
 }
 @media (min-width: 2000px) {
   .largescreen {
